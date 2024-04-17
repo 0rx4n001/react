@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import classNames from 'classnames';
 import styles from './header.module.css';
 import { SlEnvolopeLetter } from "react-icons/sl";
@@ -53,7 +54,7 @@ const Header = () => {
           <li><a href="">Home</a></li>
           <li><a href="">Shop</a></li>
           <li><a href="">Grooming</a></li>
-          <li><a href="">About</a></li>
+          <li><Link to="/about">About</Link></li>
           <li><a href="">Pages</a></li>
         </ul>
         <div className={classNames(styles.header_down_selling)}>

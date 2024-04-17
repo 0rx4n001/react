@@ -2,10 +2,10 @@ import React from 'react';
 import { FaEnvelope, FaPhone, FaGlobe, FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 import classNames from 'classnames';
 import styles from './footer.module.css';
-import logo from '../footer/Bowow_Logo_Footer_1.avif';
-import soc1 from '../footer/twitter.svg';
-import soc2 from '../footer/facebook.svg';
-import soc3 from '../footer/instagram.svg';
+import logo from './Bowow_Logo_Footer_1.avif';
+import soc1 from './twitter.svg';
+import soc2 from './facebook.svg';
+import soc3 from './instagram.svg';
 import { FaRegCalendarAlt } from "react-icons/fa";
 
 const Footer = () => {

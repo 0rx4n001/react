@@ -1,0 +1,51 @@
+.uper_section{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 243, 237);
+  height: 150px;
+  justify-content: center;
+
+}
+
+.uper_items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 3px;
+}
+a{
+    padding: 3px;
+}
+.dec_section{
+    padding: 0 180px;
+    display: flex;
+    margin: 50px 0;
+}
+.dec_section_img{
+    width: 50%;
+    margin: 0 10px;
+    position: relative;
+    overflow: hidden;
+}
+  .dec_section_img img {
+    transition: transform 0.4s ease; 
+    cursor: pointer;
+  }
+  
+  .dec_section_img:hover img {
+    transform: scale(1.1);
+  }
+
+  
+.dec_section_txt{
+    width: 50%;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dec_section_txt p{
+text-align: start;
+}

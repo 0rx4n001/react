@@ -1,0 +1,16 @@
+.slide img {
+    width: 100%; /* Slaydın genişliği */
+    height: 100%; /* Slaydın yüksekliği */
+    object-fit: cover; /* Resmin tamamen sığdırılmasını sağlar */
+  }
+
+
+  .caption {
+    position: absolute;
+    bottom:1px; /* İstenilen bir konum */
+    left: 50%; /* Orta hizalama */
+    transform: translateX(-50%); /* Yatayda orta hizalama */
+    color: white; /* Metin rengi */
+    background-color: rgba(0, 0, 0, 0.5); /* Arkaplan rengi */
+    padding: 5px 10px; /* Kenar boşlukları */
+  }
