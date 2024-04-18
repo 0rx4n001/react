@@ -35,7 +35,7 @@ const Home = () => {
   return (
     <div>
      <SwiperComponent/>
-     <Svipcar  items={items}/>
+     {/* <Svipcar  items={items}/> */}
     </div>
   )
 }
